@@ -5,7 +5,7 @@ using UnityEngine;
 public class Mover : MonoBehaviour {
 
 	public float speed;
-	void start(){
+	void Start(){
 		GetComponent<Rigidbody>().velocity = transform.forward * speed;
 	}
 }
